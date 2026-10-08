@@ -1,0 +1,32 @@
+export const jobs = [
+  {
+    id: 'j1',
+    barberId: 'u1',
+    serviceType: 'Haircut',
+    price: 1500,
+    createdAt: '2026-09-11T09:15:00Z',
+    status: 'pending',
+    approvedBy: null,
+    approvedAt: null,
+  },
+  {
+    id: 'j2',
+    barberId: 'u2',
+    serviceType: 'Haircut + Beard',
+    price: 2500,
+    createdAt: '2026-09-11T09:42:00Z',
+    status: 'pending',
+    approvedBy: null,
+    approvedAt: null,
+  },
+  {
+    id: 'j3',
+    barberId: 'u1',
+    serviceType: 'Beard trim',
+    price: 1000,
+    createdAt: '2026-09-11T08:30:00Z',
+    status: 'approved',
+    approvedBy: 'u3',
+    approvedAt: '2026-09-11T08:35:00Z',
+  },
+]
